@@ -12,6 +12,8 @@
 		151D5AAC22A5439400FF30FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151D5AAA22A5439400FF30FE /* Main.storyboard */; };
 		151D5AAE22A5439500FF30FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151D5AAD22A5439500FF30FE /* Assets.xcassets */; };
 		151D5AB122A5439500FF30FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151D5AAF22A5439500FF30FE /* LaunchScreen.storyboard */; };
+		151D5AB922A5446900FF30FE /* ImageLabelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151D5AB822A5446900FF30FE /* ImageLabelView.xib */; };
+		151D5ABB22A545AC00FF30FE /* ImageLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151D5ABA22A545AC00FF30FE /* ImageLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		151D5AAD22A5439500FF30FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151D5AB022A5439500FF30FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151D5AB222A5439500FF30FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151D5AB822A5446900FF30FE /* ImageLabelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageLabelView.xib; sourceTree = "<group>"; };
+		151D5ABA22A545AC00FF30FE /* ImageLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				151D5AAD22A5439500FF30FE /* Assets.xcassets */,
 				151D5AAF22A5439500FF30FE /* LaunchScreen.storyboard */,
 				151D5AB222A5439500FF30FE /* Info.plist */,
+				151D5ABA22A545AC00FF30FE /* ImageLabelView.swift */,
+				151D5AB822A5446900FF30FE /* ImageLabelView.xib */,
 			);
 			path = customview;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				151D5AB122A5439500FF30FE /* LaunchScreen.storyboard in Resources */,
+				151D5AB922A5446900FF30FE /* ImageLabelView.xib in Resources */,
 				151D5AAE22A5439500FF30FE /* Assets.xcassets in Resources */,
 				151D5AAC22A5439400FF30FE /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151D5ABB22A545AC00FF30FE /* ImageLabelView.swift in Sources */,
 				151D5AA922A5439400FF30FE /* ViewController.swift in Sources */,
 				151D5AA722A5439400FF30FE /* AppDelegate.swift in Sources */,
 			);
